@@ -5,20 +5,51 @@
     </head>
     <body>
         <h3>Formulario sencillo</h3>
+        <meta charset="UTF-8"> 
+
         <form action="https://ptsv2.com/t/smx2m08/post" method="post">
-            
+           
+    <!--Aqui va un fieldset con nombre, apellido y DNI-->
+    <fieldset style="wdith:50%">
+    </fieldset>
+    <legend>Datos de la persona</legend>
+
+        <!-- Nombre-->    
+
         Escribe tu nombre:
          <input type="text"  name="nombre" value="" />
+         <input type="hidden"  name="nombre_secreto" value="nombre secreto" />
          <br/>
+
+        <!--Apellido-->
+        Escribe tu appellido
+        <input type="text"  name="apellido" value="" />
+        </br>
+
+        <!--DNI-->
+        <input type="text"  name="DNI" value="" />
+
+
+         <!--contraseña-->
         Escribe la contraseña:  
          <input type="password"  name="comntra" value="" />
          </br>
         
+         <!--Cheks con los puestos de trabajo-->
         Puesto de trabajo buscados </br> 
         <input name="puesto_directivo" type="checkbox" value="direccion"/> Dirreccion </br>
         <input name="puesto_tecnico" type="checkbox" value="tecnico"/> Tecnico </br>
         <input name="puesto_Empleado" type="checkbox" value="Empleado"/> Empleado </br>
+
+        <!--Coches-->
+        Coches </br>
+        <input name="Coche"  value="BMW" type="radio"/> BMW </br>
+        <input name="Coche" type="radio" value="Mercedes"/> Mercedes </br>
+        <input name="Coche" type="radio" value="Audi"/> Audi </br>
         
+        
+
+        <!--Radio Butons-->
         <input type="submit" value="Enviar" />
         </form>
         </body>
