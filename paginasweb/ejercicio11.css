@@ -1,0 +1,12 @@
+
+
+table, th, td {
+    border: 1px solid black;
+    font-size: 40px; background-color: rgb(102, 15, 0);
+  }
+h1{
+    color: brown
+}
+a{
+    font-size: 120px; background-color: rgb(102, 15, 0);
+}
